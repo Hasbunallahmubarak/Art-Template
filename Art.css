@@ -1,0 +1,17 @@
+@charset"UTF-8";
+*{box-sizing: border-box;margin: 0px; font-family: Raleway,Arial,sans-serif;}
+div.nav{width: 100%;padding: 10px;margin-bottom: 20px;}
+div.nav a{text-decoration: none;font-size: 25px;color: rgb(20,20,20);display: inline-block;padding:15px;} div.nav a:hover{background-color: #ddd;} div.nav a:first-child{float: left;}div.nav a:last-child{float: right;direction: ltr;}
+div.container{margin-top: 60px;overflow: auto;}.some{width: 50%;float: left;}.whoa{width: 50%;float: left;} 
+.container img{width: 100%;float: left;}.ada{width: 100%; overflow: auto;background-color: #f9f9f9;}
+#about{width: 60%;margin: 50px auto;}#about h1{text-align: center;margin: 20px 0px;} #about img{width: 50%;margin: 10px auto;display: block;}
+#about p{text-align: center;font-size: 15px;line-height: 25px;margin: 20px 0px;}#about h3{font-weight: lighter;color: rgb(255,25,25); text-align: center;}
+form{width: 100%;}label{font-size: 17px;text-align: center;margin-top: 10px; display: block; font-weight: bold; }
+input{padding: 10px;width: 100%; border:0.4px solid #ddd;}input[type="submit"]{background-color:rgb(120,120,120);color: #ffffff;cursor: pointer; margin: 20px 0px;}
+input[type="submit"]:hover{background-color: #ccc;color: rgb(0,0,0);}
+.footer{color:rgb(0,0,0);text-align: center;margin: 20px 0px;}.footer a{text-decoration: none;color: inherit;}.footer a:hover{text-decoration: underline;}
+
+@media screen and (max-width: 550px){
+	.some,.whoa{width: 100%;}
+	#about{width: 95%;}
+}
